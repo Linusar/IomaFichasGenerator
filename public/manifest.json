@@ -1,10 +1,16 @@
 {
-  "short_name": "Ioma Form",
-  "name": "Ioma Form",
+  "short_name": "Fichas Printer",
+  "name": "Ioma Fichas Printer",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Impresion de fichas con datos afiliatorios insertados",
-  "icons": { "16": "/static/media/lampara-16.3c8be595.png" },
+  "description": "Generador de ficha obligatorios con datos extraídos del sistema. (EXTENSIÓN NO OFICIAL).",
+  "icons": {
+    "16": "/static/media/watermelon-16.6c810090.png",
+    "24": "/static/media/watermelon-24.247ef716.png",
+    "32": "/static/media/watermelon-32.7ee49f2f.png",
+    "64": "/static/media/watermelon-64.9072a6b0.png",
+    "128": "/static/media/watermelon-128.94026a35.png"
+  },
   "permissions": ["storage", "declarativeContent", "tabs"],
   "background": {
     "scripts": ["app/background.js"]
