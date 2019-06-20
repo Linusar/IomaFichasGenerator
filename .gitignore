@@ -9,6 +9,9 @@
 # production
 /build
 
+# En proceso
+/Components/FormEstudiante
+
 # misc
 .DS_Store
 .env.local

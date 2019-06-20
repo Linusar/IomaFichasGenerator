@@ -7045,13 +7045,6 @@ react-is@^16.6.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-to-print@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/react-to-print/-/react-to-print-2.1.2.tgz#6fb30cb79fc90f773dce76d25e2a896efd31b461"
-  integrity sha512-oCbFoqPxIWG2lMigp9RMEp3bw5jU2uAjs3N3EdikfemDraLTFuh+kcXdr4eazmH+734TvpCQ70sgcCOfjmXyRQ==
-  dependencies:
-    prop-types "^15.6.2"
-
 react@^16.4.1:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"

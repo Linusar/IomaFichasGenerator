@@ -1,9 +1,6 @@
 /* global chrome */
 import React, { useState, useEffect } from "react";
-import ReactToPrint from "react-to-print";
 import FormObligatorio from "../FormObligatorio";
-import FormObligatorioExclusivo from "../FormObligatorioExclusivo";
-import FormEstudiante from "../FormEstudiante";
 import { DataAfiliadoMock } from "../../utilities";
 
 const NewTab = () => {

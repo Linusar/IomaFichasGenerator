@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { DataAfiliado } from "../../utilities";
-import ficha_obligatorios from "../../ficha_obligatorios.jpg";
-import "./FormEstudiante.css";
-import ReactToPrint from 'react-to-print';
+import ficha_obligatorios from "../../ficha_obligatorios.jpg";;
 
 class FormEstudiante extends Component {
   render() {
