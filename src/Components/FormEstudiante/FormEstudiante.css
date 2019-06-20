@@ -1,0 +1,432 @@
+.Content {
+  position: relative;
+  top: 0px;
+  left: 50%;
+  margin-left: -297px;
+  width: 595px;
+  height: 841px;
+  border-style: outset;
+  overflow: hidden;
+}
+
+.ImgPos {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Background {
+  height: 841px;
+  width: 595px;
+}
+
+span.cls_003 {
+  font-family: Arial, serif;
+  font-size: 12.7px;
+  color: rgb(254, 255, 255);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 187.6px;
+  top: 60.85px;
+}
+div.cls_003 {
+  font-family: Arial, serif;
+  font-size: 12.7px;
+  color: rgb(254, 255, 255);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_004 {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_004 {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 157.4px;
+  top: 105.71px;
+}
+div.cls_004a {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 431.51px;
+  top: 108.23px;
+}
+div.cls_004ab {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 431.51px;
+  top: 93.23px;
+}
+div.cls_004b {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 145.23px;
+  top: 140.19px;
+}
+div.cls_004bb {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 130.23px;
+  top: 125.19px;
+}
+div.cls_004c {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 433.47px;
+  top: 139.99px;
+}
+div.cls_004cb {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 433.47px;
+  top: 125.99px;
+}
+div.cls_004d {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 544.97px;
+  top: 139.99px;
+}
+div.cls_004db {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 550px;
+  top: 125.99px;
+}
+div.cls_004e {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 57.02px;
+  top: 153.99px;
+}
+div.cls_004f {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 57.02px;
+  top: 161.99px;
+}
+div.cls_004g {
+  font-family: Arial, serif;
+  font-size: 8.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 58.27px;
+  top: 170.99px;
+}
+span.cls_005 {
+  font-family: Arial, serif;
+  font-size: 6px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_005 {
+  font-family: Arial, serif;
+  font-size: 6px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_005aa {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  left: 125px;
+  top: 158px;
+}
+span.cls_006 {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_006 {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_007 {
+  font-family: Arial, serif;
+  font-size: 7px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_007 {
+  font-family: Arial, serif;
+  font-size: 7px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_008 {
+  font-family: Arial, serif;
+  font-size: 10.1px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_008 {
+  font-family: Arial, serif;
+  font-size: 10.1px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_009 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_009 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_019 {
+  font-family: Arial, serif;
+  font-size: 5.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_019 {
+  font-family: Arial, serif;
+  font-size: 5.1px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_002 {
+  font-family: Arial, serif;
+  font-size: 9.3px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_002 {
+  font-family: Arial, serif;
+  font-size: 9.3px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_010 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_010 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_011 {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_011 {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_012 {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_012 {
+  font-family: Arial, serif;
+  font-size: 10px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_013 {
+  font-family: Arial, serif;
+  font-size: 10.3px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_013 {
+  font-family: Arial, serif;
+  font-size: 10.3px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_014 {
+  font-family: Arial, serif;
+  font-size: 10.5px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_014 {
+  font-family: Arial, serif;
+  font-size: 10.5px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_015 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_015 {
+  font-family: Arial, serif;
+  font-size: 8px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_016 {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_016 {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(39, 37, 35);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+span.cls_018 {
+  font-family: Arial, serif;
+  font-size: 9.3px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+div.cls_018 {
+  font-family: Arial, serif;
+  font-size: 9.3px;
+  color: rgb(39, 37, 35);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}

@@ -1,21 +1,30 @@
 {
-  "short_name": "My Extension",
-  "name": "My Extension",
+  "short_name": "Ioma Form",
+  "name": "Ioma Form",
   "version": "1.0",
   "manifest_version": 2,
+  "description": "Impresion de fichas con datos afiliatorios insertados",
+  "icons": { "16": "/static/media/lampara-16.3c8be595.png" },
+  "permissions": ["storage", "declarativeContent", "tabs"],
   "background": {
     "scripts": ["app/background.js"]
   },
-  "browser_action": {},
-  "content_scripts" : [
+  "content_scripts": [
     {
-      "matches": [ "<all_urls>" ],
+      "matches": [
+        "https://credenciales.ioma.gba.gov.ar/sistemas/obligatorios/controlador/obtenerAfiliado.php*",
+        "http://credenciales.ioma.gba.gov.ar/sistemas/obligatorios/controlador/obtenerAfiliado.php*"
+      ],
       "css": ["/static/css/app.css"],
       "js": ["/static/js/content.js"]
     }
   ],
-  "web_accessible_resources":[
-    "/static/css/content.css"
-  ],
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "externally_connectable": {
+    "ids": ["*"],
+    "matches": ["https://credenciales.ioma.gba.gov.ar/*"],
+    "accepts_tls_channel_id": false
+  },
+  "web_accessible_resources": ["/static/css/content.css"],
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
