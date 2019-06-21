@@ -4,7 +4,7 @@
 </a>
 </p>
 
-<h1 align="center">Ioma Fichas Generator 📠</h1>
+<h1 align="center">Fichas Generator 📠</h1>
 
 <p>This chrome extension allows you to generate the affiliate cards using the system data and then print.</p>
 
