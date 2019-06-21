@@ -22,7 +22,7 @@
 
 <h2> Install from Chrome Extensions Store</h2>
 
-Get it on [[https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh](https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh)](<[https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh](https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh)>)
+Get it on [[https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh](https://chrome.google.com/webstore/detail/fichas-generator/ghjfflnlhdmmfifkklbcklpdfgafjioh)]
 
 <h2>Use</h2>
 
@@ -52,10 +52,12 @@ yarn build
 
 Open chrome and open `chrome://extensions/` , make sure `Developer mode` button is on, click `Load unpacked` , choose `project_dir/build` , now your will see a new extension been loaded.
 
-<h2>Inspired</h2>
+<h2>Inspired by</h2>
 
 <p>
-Repo: [React Chrome Extension](https://github.com/satendra02/react-chrome-extension)
+
+[https://github.com/satendra02/react-chrome-extension](https://github.com/satendra02/react-chrome-extension])
+
 </p>
 
 <h2>Social</h2>
