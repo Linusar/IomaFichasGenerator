@@ -89,18 +89,18 @@ const getTipoAfiliado = tipo => {
   }
 };
 
-const parseSexoToString = intSexo => {
+const parseSexoToNumber = intSexo => {
   switch (intSexo) {
     case "Masculino":
-      return "1";
+      return 1;
     case "Femenino":
-      return "2";
+      return 2;
     case "Mujer":
-      return "2";
+      return 2;
     case "Hombre":
-      return "1";
+      return 1;
     default:
-      return "Falta codigo";
+      return 0;
   }
 };
 
@@ -127,23 +127,19 @@ const parseEstadoCivilToInt = intEstadoCivil => {
 };
 
 const getDay = day => {
-  return day.substr(0, 2);
+  return day ? day.substr(0, 2) : "00";
 };
 
 const getMonth = month => {
-  return month.substr(3, 2);
+  return month ? month.substr(3, 2) : "00";
 };
 
 const getYear = year => {
-  return year.substr(8, 2);
+  return year ? year.substr(8, 2) : "00";
 };
 
 const getBarra = numeroAfiliado => {
   return numeroAfiliado ? numeroAfiliado.substr(11, 2) : " ";
-};
-
-const parseEntidadInt = entidad => {
-  return entidad.substring(11, 12);
 };
 
 const getDateNow = () => {
@@ -198,7 +194,7 @@ const getCantidadCargas = () => {
 const getCargaObjet = cells => {
   return {
     nombre: cells[0].textContent,
-    sexo: parseSexoToString(cells[1].textContent),
+    sexo: parseSexoToNumber(cells[1].textContent),
     dni: cells[2].textContent,
     numeroAfiliado: cells[3].textContent,
     barra: cells[3].textContent.substr(11, 2)
@@ -253,7 +249,7 @@ const DataAfiliado = () => {
     estadoCivilId: parseEstadoCivilToInt(
       getElementsByNameDom("estado_civil_id", 0).trim()
     ),
-    sexo: parseSexoToString(getElementsByNameDom("sexo", 0).trim()),
+    sexo: parseSexoToNumber(getElementsByNameDom("sexo", 0).trim()),
     fechaNacimiento: getElementsByNameDom("fecha_nacimiento", 0).replace(
       /\s/g,
       ""
@@ -298,10 +294,14 @@ const DataAfiliado = () => {
 export {
   DataAfiliado,
   DataAfiliadoMock,
+  getTipoAfiliado,
+  parseSexoToNumber,
+  parseEstadoCivilToInt,
   getDay,
   getMonth,
   getYear,
   getDateNow,
+  getBarra,
   isTrue,
   parseEntidad,
   getCargas,

@@ -1,5 +1,6 @@
 /* global chrome */
 import React, { Component } from "react";
+import styled from "styled-components";
 import watermelon16 from "./watermelon-16.png";
 import watermelon24 from "./watermelon-24.png";
 import watermelon32 from "./watermelon-32.png";

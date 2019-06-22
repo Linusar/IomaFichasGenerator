@@ -7,7 +7,6 @@ import { DataAfiliado } from "./utilities";
 const SetStateDataAfiliado = () => {
   const handleClick = () => {
     const afiliadoDom = DataAfiliado();
-    console.log(afiliadoDom);
     chrome.storage.sync.set({ afiliado: afiliadoDom }, () => {
       console.log("Value is set to Storage");
     });
