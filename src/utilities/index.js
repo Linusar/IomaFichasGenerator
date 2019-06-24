@@ -64,10 +64,8 @@ const DataAfiliadoMock = () => {
 
 const getElementsByNameDom = (name, index) => {
   let result = "";
-  if (document.getElementsByName(name)[index]) {
-    result = document.getElementsByName(name)[index].value
-      ? document.getElementsByName(name)[index].value
-      : "";
+  if (document.getElementsByName(name)[index] !== null) {
+    result = document.getElementsByName(name)[index].value;
   }
   return result;
 };
@@ -127,19 +125,19 @@ const parseEstadoCivilToInt = intEstadoCivil => {
 };
 
 const getDay = day => {
-  return day ? day.substr(0, 2) : "00";
+  return day !== null ? day.substr(0, 2) : "00";
 };
 
 const getMonth = month => {
-  return month ? month.substr(3, 2) : "00";
+  return month !== null ? month.substr(3, 2) : "00";
 };
 
 const getYear = year => {
-  return year ? year.substr(8, 2) : "00";
+  return year !== null ? year.substr(8, 2) : "00";
 };
 
 const getBarra = numeroAfiliado => {
-  return numeroAfiliado ? numeroAfiliado.substr(11, 2) : " ";
+  return numeroAfiliado !== null ? numeroAfiliado.substr(11, 2) : " ";
 };
 
 const getDateNow = () => {
@@ -163,32 +161,38 @@ const isTrue = value => {
 };
 
 const parseEntidad = entidadFull => {
-  const array = entidadFull.split(" ");
-  const entidad = array[array.length - 1].split("-");
   let parse = {
     origen: "",
     entidad: "",
     anexo: ""
   };
-  switch (entidad.length) {
-    case 1:
-      parse.origen = entidad[0].replace("(", "").replace(")", "");
-      break;
-    case 2:
-      parse.origen = entidad[0].replace("(", "");
-      parse.entidad = entidad[1].replace(")", "");
-      break;
-    case 3:
-      parse.origen = entidad[0].replace("(", "");
-      parse.entidad = entidad[1];
-      parse.anexo = entidad[2].replace(")", "");
-      break;
+  if (entidadFull !== null) {
+    const array = entidadFull.split(" ");
+    const entidad = array[array.length - 1].split("-");
+    switch (entidad.length) {
+      case 1:
+        parse.origen = entidad[0].replace("(", "").replace(")", "");
+        break;
+      case 2:
+        parse.origen = entidad[0].replace("(", "");
+        parse.entidad = entidad[1].replace(")", "");
+        break;
+      case 3:
+        parse.origen = entidad[0].replace("(", "");
+        parse.entidad = entidad[1];
+        parse.anexo = entidad[2].replace(")", "");
+        break;
+    }
   }
   return parse;
 };
 
 const getCantidadCargas = () => {
-  return document.getElementById("example").children[1].children.length;
+  let cargas = 0;
+  if (document.getElementById("example") !== null) {
+    cargas = document.getElementById("example").children[1].children;
+  }
+  return cargas;
 };
 
 const getCargaObjet = cells => {
@@ -203,10 +207,12 @@ const getCargaObjet = cells => {
 
 const getCargas = () => {
   let cantidadCargas = getCantidadCargas();
-  const children = document.getElementById("example").children[1].children;
   let cargas = [];
-  while (cantidadCargas--) {
-    cargas.push(getCargaObjet(children[cantidadCargas].cells));
+  if (cantidadCargas !== 0 && document.getElementById("example") !== null) {
+    let children = document.getElementById("example").children[1].children;
+    while (cantidadCargas--) {
+      cargas.push(getCargaObjet(children[cantidadCargas].cells));
+    }
   }
   return cargas;
 };

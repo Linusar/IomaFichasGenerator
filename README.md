@@ -46,6 +46,9 @@ yarn install
 # build files
 yarn build
 
+# unit test
+yarn test
+
 ```
 
 **Load extension in chrome**
