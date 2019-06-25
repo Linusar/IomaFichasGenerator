@@ -22,9 +22,11 @@ const SetStateDataAfiliado = () => {
 const app = document.createElement("a");
 
 //Append <a> element to div
-document
-  .getElementById("formu")
-  .getElementsByTagName("div")[1]
-  .appendChild(app);
+if (document.getElementById("formu") !== null) {
+  document
+    .getElementById("formu")
+    .getElementsByTagName("div")[1]
+    .appendChild(app);
 
-ReactDOM.render(<SetStateDataAfiliado />, app);
+  ReactDOM.render(<SetStateDataAfiliado />, app);
+}

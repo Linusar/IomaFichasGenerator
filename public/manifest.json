@@ -1,7 +1,7 @@
 {
   "short_name": "Fichas Generator",
   "name": "Fichas Generator",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Generador de ficha obligatorios con datos extraídos del sistema. (EXTENSIÓN NO OFICIAL).",
   "icons": {
@@ -30,6 +30,5 @@
     "matches": ["https://credenciales.ioma.gba.gov.ar/*"],
     "accepts_tls_channel_id": false
   },
-
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }

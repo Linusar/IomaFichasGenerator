@@ -64,7 +64,7 @@ const DataAfiliadoMock = () => {
 
 const getElementsByNameDom = (name, index) => {
   let result = "";
-  if (document.getElementsByName(name)[index] !== null) {
+  if (document.getElementsByName(name) !== null) {
     result = document.getElementsByName(name)[index].value;
   }
   return result;
@@ -160,39 +160,25 @@ const isTrue = value => {
   return value ? "X" : "";
 };
 
-const parseEntidad = entidadFull => {
-  let parse = {
+const parseEntidad = job => {
+  let entity = {
     origen: "",
     entidad: "",
     anexo: ""
   };
-  if (entidadFull !== null) {
-    const array = entidadFull.split(" ");
-    const entidad = array[array.length - 1].split("-");
-    switch (entidad.length) {
-      case 1:
-        parse.origen = entidad[0].replace("(", "").replace(")", "");
-        break;
-      case 2:
-        parse.origen = entidad[0].replace("(", "");
-        parse.entidad = entidad[1].replace(")", "");
-        break;
-      case 3:
-        parse.origen = entidad[0].replace("(", "");
-        parse.entidad = entidad[1];
-        parse.anexo = entidad[2].replace(")", "");
-        break;
-    }
-  }
-  return parse;
-};
 
-const getCantidadCargas = () => {
-  let cargas = 0;
-  if (document.getElementById("example") !== null) {
-    cargas = document.getElementById("example").children[1].children;
+  let parse = job
+    .substring(job.lastIndexOf("(") + 1, job.lastIndexOf(")"))
+    .trim()
+    .replace("-", "")
+    .replace("-", "");
+
+  if (parse.length >= 2 && parse.length <= 9) {
+    entity.origen = parse.substr(0, 2);
+    entity.entidad = parse.substr(2, 5);
+    entity.anexo = parse.substr(5, 2);
   }
-  return cargas;
+  return entity;
 };
 
 const getCargaObjet = cells => {
@@ -206,12 +192,14 @@ const getCargaObjet = cells => {
 };
 
 const getCargas = () => {
-  let cantidadCargas = getCantidadCargas();
   let cargas = [];
-  if (cantidadCargas !== 0 && document.getElementById("example") !== null) {
+  if (document.getElementById("example") !== null) {
     let children = document.getElementById("example").children[1].children;
+    let cantidadCargas = children.length;
     while (cantidadCargas--) {
-      cargas.push(getCargaObjet(children[cantidadCargas].cells));
+      if (cantidadCargas <= 4) {
+        cargas.push(getCargaObjet(children[cantidadCargas].cells));
+      }
     }
   }
   return cargas;
