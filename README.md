@@ -1,6 +1,7 @@
+
 <p align="center">
-	<a href="https://raw.githubusercontent.com/Linusar/impresion-recetas"  target="_blank">
-	<img  align="center"  alt="sun"  src="https://raw.githubusercontent.com/Linusar/impresion-recetas/master/resources/icons/96x96.png"  />
+	<a href="https://github.com/Linusar/IomaFichasGenerator"  target="_blank">
+	<img  align="center"  alt="watermelon"  src="https://github.com/Linusar/IomaFichasGenerator/blob/master/src/watermelon-128.png"  />
 	</a>
 </p>
 
