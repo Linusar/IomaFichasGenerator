@@ -11,9 +11,14 @@
     "64": "/static/media/watermelon-64.9072a6b0.png",
     "128": "/static/media/watermelon-128.94026a35.png"
   },
-  "permissions": ["storage", "declarativeContent", "tabs"],
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
   "background": {
-    "scripts": ["app/background.js"]
+    "scripts": [
+      "app/background.js"
+    ]
   },
   "content_scripts": [
     {
@@ -21,13 +26,21 @@
         "https://credenciales.ioma.gba.gov.ar/sistemas/obligatorios/controlador/obtenerAfiliado.php*",
         "http://credenciales.ioma.gba.gov.ar/sistemas/obligatorios/controlador/obtenerAfiliado.php*"
       ],
-      "js": ["/static/js/content.js"]
+      "js": [
+        "/static/js/content.js"
+      ]
     }
   ],
-  "chrome_url_overrides": { "newtab": "index.html" },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
   "externally_connectable": {
-    "ids": ["*"],
-    "matches": ["https://credenciales.ioma.gba.gov.ar/*"],
+    "ids": [
+      "*"
+    ],
+    "matches": [
+      "https://credenciales.ioma.gba.gov.ar/*"
+    ],
     "accepts_tls_channel_id": false
   },
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"

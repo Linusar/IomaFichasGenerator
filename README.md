@@ -60,7 +60,7 @@ Open chrome and open `chrome://extensions/` , make sure `Developer mode` button 
 
 <p>
 
-[https://github.com/satendra02/react-chrome-extension](https://github.com/satendra02/react-chrome-extension])
+[https://github.com/satendra02/react-chrome-extension](https://github.com/satendra02/react-chrome-extension)
 
 </p>
 
